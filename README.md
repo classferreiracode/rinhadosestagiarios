@@ -3,7 +3,7 @@
 
 O projeto "_Rinha dos Estagiários_" consiste em uma disputa Front-End.
 
-O candidato deve reproduzir o layout proposto o mais fiel possível, o projeto deve ser/ter Semântico, SEO, Acessibilidade, 1 formulário com validação.
+O candidato deve reproduzir o layout proposto o mais fiel possível, o projeto deve ser/ter Semântico, Resposivo, SEO, Acessibilidade, 1 formulário com validação.
 _Opcionalmente pode ser usado frameworks css_.
 
 ### Pré-requisitos:
