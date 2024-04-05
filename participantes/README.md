@@ -45,7 +45,7 @@ Você criou com sucesso o repositório `rinhadosestagiarios` mas, até agora, el
 
 6.  Digite `git clone` e cole a URL já copiada. Ela terá esta aparência, com seu nome de usuário do GitHub:
 
-> https://github.com/wagnerferreirasi/rinhadosestagiarios.git
+    > https://github.com/wagnerferreirasi/rinhadosestagiarios.git
 
 7.  Pressione Enter. Seu clone local será criado.
 
@@ -75,7 +75,7 @@ Você criou com sucesso o repositório `rinhadosestagiarios` mas, até agora, el
 
 Quando estiver pronto para enviar suas alterações, teste e faça commit das suas alterações. `git add .` informa o Git de que você deseja incluir todas as alterações no próximo commit. `git commit` cria um instantâneo dessas alterações.
 
-    git add .<br>
+    git add .
     git commit -m "descricao do seu commit"
 
 No momento, suas alterações existem apenas localmente. Quando estiver pronto para fazer push das suas alterações para GitHub, faça push delas para o controle remoto.
