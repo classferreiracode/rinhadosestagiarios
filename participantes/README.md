@@ -5,7 +5,8 @@
 1.  Navegue até o projeto `rinhadosestagiarios` no [GitHub](https://github.com/wagnerferreirasi/rinhadosestagiarios)
 
 2.  No canto superior direito da página, clique em Criar Fork ou Create new fork.
-    ![imagem fork do projeto](../assets/fork.png)
+
+![imagem fork do projeto](../assets/fork.png)
 
 3.  Em "Proprietário", selecione o menu suspenso e clique em um proprietário do repositório com fork.
 
@@ -18,7 +19,8 @@
 > Para muitos cenários de bifurcação, como contribuir para projetos de código aberto, você só precisa copiar o branch padrão. Se você não selecionar essa opção, todos os branches serão copiados para o novo fork.
 
 7.  Clique em Criar bifurcação.
-    ![alt text](../assets/fork2.png)
+
+![alt text](../assets/fork2.png)
 
 <br>
 <br>
@@ -34,7 +36,8 @@ Você criou com sucesso o repositório `rinhadosestagiarios` mas, até agora, el
 2.  Acima da lista de arquivos, clique em <> Código.
 
 3.  Copie a URL do repositório.
-    ![alt text](../assets/clone.png)
+
+![alt text](../assets/clone.png)
 
 4.  Abra Terminal do seu computador.
 
