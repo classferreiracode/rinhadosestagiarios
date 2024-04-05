@@ -49,12 +49,12 @@ Você criou com sucesso o repositório `rinhadosestagiarios` mas, até agora, el
 
 7.  Pressione Enter. Seu clone local será criado.
 
-        $ git clone https://github.com/wagnerferreirasi/rinhadosestagiarios<br>
-        Cloning into `rinhadosestagiarios`...<br>
-        remote: Counting objects: 10, done.<br>
-        remote: Compressing objects: 100% (8/8), done.<br>
-        remove: Total 10 (delta 1), reused 10 (delta 1)<br>
-        Unpacking objects: 100% (10/10), done.<br>
+        $ git clone https://github.com/wagnerferreirasi/rinhadosestagiarios
+        Cloning into `rinhadosestagiarios`...
+        remote: Counting objects: 10, done.
+        remote: Compressing objects: 100% (8/8), done.
+        remove: Total 10 (delta 1), reused 10 (delta 1)
+        Unpacking objects: 100% (10/10), done.
 
 <br>
 <br>
@@ -63,7 +63,7 @@ Você criou com sucesso o repositório `rinhadosestagiarios` mas, até agora, el
 
 > Antes de fazer alterações no projeto, você deve criar um branch e fazer check-out. Mantendo as alterações no próprio branch, você segue o GitHub Flow e garante que será mais fácil contribuir com o mesmo projeto novamente no futuro
 
-    git branch BRANCH-NAME<br>
+    git branch BRANCH-NAME
     git checkout BRANCH-NAME
 
 <br>
