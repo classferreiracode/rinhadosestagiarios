@@ -82,6 +82,9 @@ No momento, suas alterações existem apenas localmente. Quando estiver pronto p
 
     git push
 
+<br>
+<br>
+
 ## 5. Fazendo um pull request
 
 > Finalmente, você está pronto para enviar o seu projeto para avaliação no projeto principal! Essa é a última etapa para entregar seu projeto, e a mais importante, indiscutivelmente.
