@@ -1,288 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <script  src="./js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins&display=swap');
+    </style>
 </head>
-<body>
-    <div class="container">
-        <header>
-            <img src="./img/logo.svg" alt="imagem de logo da pagina escrita comed">
-            <nav>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="schedule">Schedule</a></li>
-                    <li><a href="press">press</a></li>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <section class="home">
-            <div class="name">Cak<br />Lento</div>
-            <div class="description">Javanese comedian,  actor, producer, writer, television personality, and a licensed physician.</div>
-            <div class="video">
-                <a href="">
-                    <img src="./img/video.jpg" alt="">
-                    <p>Lastest Video</p>
-                </a>
-            </div>
-            <div class="imgprofile"></div>
-        </section>
+<body class="container">
 
-        <section class="about">
-            <h2>What we <br /> belive in</h2>
- 
-            <article>
-                <header>
-                    <h2>Comedian</h2>
-                </header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-                <img src="./img/Image.png" alt="">
-            </article>
+    <header id="menu">
+        <nav>
+            <img id="logo" src="./img/logo.svg" alt="imagem de logo da pagina escrita comed">
+            <ul>
+                <li><a href="#">Home +</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Schedule +</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a id="menu_contact" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            
-            <article>
-                <header>
-                    <h2>Actor</h2>
-                </header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-                <img src="./img/Image.png" alt="">
-            </article>
-
-
-            <article>
-                <header>
-                    <h2>Producer</h2>
-                </header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-                <img src="./img/Image.png" alt="">
-            </article>
-        </section>
-
-        <section class="gallery">
-            <div class="carousel">
-                <img src="./img/Image.png" alt="Imagem de exemplo">
-                <img src="./img/Image.png" alt="Imagem de exemplo">
-                <img src="./img/Image.png" alt="Imagem de exemplo">
-                <img src="./img/Image.png" alt="Imagem de exemplo">
-            </div>
-        </section>
-
-        <section class="profile">
-            <article>
-                <div>
-                    <img src="./img/Image.png" alt="">
-                    <img src="./img/Image.png" alt="">
-                    <img src="./img/shape.png" alt="">
-                </div>
-                <div>
-                    <h1>Our Profile</h1>
-                    <h2>Javanese actor, comedian, producer, writer, television personality, and a licensed physician.</h2>
-                    <p>
-                        <h3>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                        </h3>
-                    </p>
-                    <p>
-                        <h3>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                        </h3>
-                    </p>
-                </div>
-            </article>
-        </section>
-
-        <section class="contact">
-            <h1>Contact me for your individual orders</h1>
-            <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p><a href="#" target="_blank">Contact</a></p>
-        </section>
-
-        <section class="schedule">
-            <p>Our Schedule</p>
-
-            <article>
-                <header>Culpaqui officia deserunt mollit anim.</header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
-                <img src="./img/Image.png" alt="">
-                <footer>
-                    <div>
-                        <img src="./img/.png" alt="">
-                        Gelora Pancasila
-                    </div>
-                    <div>
-                        <img src="./img/.png" alt="">
-                        20:30 - 21:30
-                    </div>
-                </footer>
-            </article>
-
-            <article>
-                <header>Culpaqui officia deserunt mollit anim.</header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
-                <img src="./img/Image.png" alt="">
-                <footer>
-                    <div>
-                        <img src="./img/.png" alt="">
-                        Gelora Pancasila
-                    </div>
-                    <div>
-                        <img src="./img/.png" alt="">
-                        20:30 - 21:30
-                    </div>
-                </footer>
-            </article>
-
-            <article>
-                <header>Culpaqui officia deserunt mollit anim.</header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
-                <img src="./img/Image.png" alt="">
-                <footer>
-                    <div>
-                        <img src="./img/.png" alt="">
-                        Gelora Pancasila
-                    </div>
-                    <div>
-                        <img src="./img/.png" alt="">
-                        20:30 - 21:30
-                    </div>
-                </footer>
-            </article>
-
-            <hr />
-            <a href="#">Explore More > </a>
-        </section>
-
-        <section class="onpress">
-            <h1>On Press</h1>
-            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <article>
-                <header>Laboris nisi ut aliquip ex ea commodo consequat.</header>
-                <video width="" height="" autoplay muted>
-                    <source src="./video/video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <footer>24 August 2020</footer>
-            </article>
-
-            <article>
-                <header>Laboris nisi ut aliquip ex ea commodo consequat.</header>
-                <video width="" height="" autoplay muted>
-                    <source src="./video/video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <footer>24 August 2020</footer>
-            </article>
-
-            <article>
-                <header>Laboris nisi ut aliquip ex ea commodo consequat.</header>
-                <video width="" height="" autoplay muted>
-                    <source src="./video/video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <footer>24 August 2020</footer>
-            </article>
-
-            <img src="./img/shape.png" alt="">
-            <img src="./img/Image.png" alt="">
-            <img src="./img/shape2.png" alt="">
-        </section>
-
-
-        <section class="ournews">
-            <h1>Our News</h1>
-
-            <article>
-                <header>Culpaqui officia deserunt mollit anim.</header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
-                <a href="#">Read more</a>
-                <hr />
-                <footer>
-                    <div>July 29, 2020</div>
-                    <div>Arts</div>
-                </footer>
-            </article>
-
-            <article>
-                <header>Culpaqui officia deserunt mollit anim.</header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
-                <a href="#">Read more</a>
-                <hr />
-                <footer>
-                    <div>July 29, 2020</div>
-                    <div>Arts</div>
-                </footer>
-            </article>
-
-            <article>
-                <header>Culpaqui officia deserunt mollit anim.</header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
-                <a href="#">Read more</a>
-                <hr />
-                <footer>
-                    <div>July 29, 2020</div>
-                    <div>Arts</div>
-                </footer>
-            </article>
-        </section>
-
-        <section class="partners">
-            <img src="./img/dummy-logo-1b.png" alt="Parceria">
-            <img src="./img/dummy-logo-2b.png" alt="Parceria">
-            <img src="./img/dummy-logo-3b.png" alt="Parceria">
-            <img src="./img/dummy-logo-4b.png" alt="Parceria">
-        </section>
-
-        <section class="footer">
-            <article>
-                <h1>Adreess</h1>
-                <p>
-                    99 S.t Jomblo Park
-                    Pekanbaru 28292.
-                    Indonesia
-                </p>
-                <p>Mon — Sat: 8AM — 4PM</p>
-            </article>
-
-            <article>
-                <h1>Links</h1>
-                <ul>
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </article>
-
-            <article>
-                <h1>Phone</h1>
-                <a href="#">
-                    <img src="./img/phone.png" alt="">
-                    +62 458 7976 2473
-                </a>
-                <p>If you have a question, please contact at contact@comed.com</p>
-                <div>
-                    <a href="#"><img src="./img/facebook.png" alt=""></a>
-                    <a href="#"><img src="./img/twitter.png" alt=""></a>
-                    <a href="#"><img src="./img/instagram.png" alt=""></a>
-                    <a href="#"><img src="./img/youtube.png" alt=""></a>
-                </div>
-            </article>
-        </section>
-        
+    <section id="home">
         <div>
-            © 2020 Comed Template Kit. All rights reserved
+            <aside>
+                <h1 class="name">Cak<br />Lénto</h1>
+                <p class="description">Javanese comedian, actor, producer, writer, television personality, and a licensed physician.</p>
+                <div class="video">
+                    <a href="#">
+                        <img src="./img/video-play.png" alt="">
+                        Lastest Video
+                    </a>
+                </div>
+            </aside>
+            <div id="profile">
+                <img id="imgprofile" src="./img/Image.png" alt="">
+                <img id="imgforms1" src="./img/comed-shape-2 1.png" alt="">
+                <img id="imgforms2" src="./img/shape.png" alt="">
+                <img id="imgforms3" src="./img/comed-shape 2.png" alt="">
+                <img id="imgforms4" src="./img/comed-shape-2 2.png" alt="">
+            </div>
         </div>
-    </div>
+    </section>
 
+    <section class="about">
+        <h2>What we <br /> belive in</h2>
+
+        <article>
+            <header>
+                <h2>Comedian</h2>
+            </header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat.</p>
+            <img src="./img/Image.png" alt="">
+        </article>
+
+
+        <article>
+            <header>
+                <h2>Actor</h2>
+            </header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat.</p>
+            <img src="./img/Image.png" alt="">
+        </article>
+
+
+        <article>
+            <header>
+                <h2>Producer</h2>
+            </header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat.</p>
+            <img src="./img/Image.png" alt="">
+        </article>
+    </section>
+
+    <section class="gallery">
+        <div class="carousel">
+            <img src="./img/Image.png" alt="Imagem de exemplo">
+            <img src="./img/Image.png" alt="Imagem de exemplo">
+            <img src="./img/Image.png" alt="Imagem de exemplo">
+            <img src="./img/Image.png" alt="Imagem de exemplo">
+        </div>
+    </section>
+
+    <section class="profile">
+        <article>
+            <div>
+                <img src="./img/Image.png" alt="">
+                <img src="./img/Image.png" alt="">
+                <img src="./img/shape.png" alt="">
+            </div>
+            <div>
+                <h1>Our Profile</h1>
+                <h2>Javanese actor, comedian, producer, writer, television personality, and a licensed physician.
+                </h2>
+                <p>
+                <h3>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat.
+                </h3>
+                </p>
+                <p>
+                <h3>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat.
+                </h3>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section class="contact">
+        <h1>Contact me for your individual orders</h1>
+        <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in
+            culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a href="#" target="_blank">Contact</a></p>
+    </section>
+
+    <section class="schedule">
+        <p>Our Schedule</p>
+
+        <article>
+            <header>Culpaqui officia deserunt mollit anim.</header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
+            <img src="./img/Image.png" alt="">
+            <footer>
+                <div>
+                    <img src="./img/.png" alt="">
+                    Gelora Pancasila
+                </div>
+                <div>
+                    <img src="./img/.png" alt="">
+                    20:30 - 21:30
+                </div>
+            </footer>
+        </article>
+
+        <article>
+            <header>Culpaqui officia deserunt mollit anim.</header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
+            <img src="./img/Image.png" alt="">
+            <footer>
+                <div>
+                    <img src="./img/.png" alt="">
+                    Gelora Pancasila
+                </div>
+                <div>
+                    <img src="./img/.png" alt="">
+                    20:30 - 21:30
+                </div>
+            </footer>
+        </article>
+
+        <article>
+            <header>Culpaqui officia deserunt mollit anim.</header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
+            <img src="./img/Image.png" alt="">
+            <footer>
+                <div>
+                    <img src="./img/.png" alt="">
+                    Gelora Pancasila
+                </div>
+                <div>
+                    <img src="./img/.png" alt="">
+                    20:30 - 21:30
+                </div>
+            </footer>
+        </article>
+
+        <hr />
+        <a href="#">Explore More > </a>
+    </section>
+
+    <section class="onpress">
+        <h1>On Press</h1>
+        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+        </p>
+
+        <article>
+            <header>Laboris nisi ut aliquip ex ea commodo consequat.</header>
+            <video width="" height="" autoplay muted>
+                <source src="./video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <footer>24 August 2020</footer>
+        </article>
+
+        <article>
+            <header>Laboris nisi ut aliquip ex ea commodo consequat.</header>
+            <video width="" height="" autoplay muted>
+                <source src="./video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <footer>24 August 2020</footer>
+        </article>
+
+        <article>
+            <header>Laboris nisi ut aliquip ex ea commodo consequat.</header>
+            <video width="" height="" autoplay muted>
+                <source src="./video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <footer>24 August 2020</footer>
+        </article>
+
+        <img src="./img/shape.png" alt="">
+        <img src="./img/Image.png" alt="">
+        <img src="./img/shape2.png" alt="">
+    </section>
+
+
+    <section class="ournews">
+        <h1>Our News</h1>
+
+        <article>
+            <header>Culpaqui officia deserunt mollit anim.</header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
+            <a href="#">Read more</a>
+            <hr />
+            <footer>
+                <div>July 29, 2020</div>
+                <div>Arts</div>
+            </footer>
+        </article>
+
+        <article>
+            <header>Culpaqui officia deserunt mollit anim.</header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
+            <a href="#">Read more</a>
+            <hr />
+            <footer>
+                <div>July 29, 2020</div>
+                <div>Arts</div>
+            </footer>
+        </article>
+
+        <article>
+            <header>Culpaqui officia deserunt mollit anim.</header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident sunt in culpa.</p>
+            <a href="#">Read more</a>
+            <hr />
+            <footer>
+                <div>July 29, 2020</div>
+                <div>Arts</div>
+            </footer>
+        </article>
+    </section>
+
+    <section class="partners">
+        <img src="./img/dummy-logo-1b.png" alt="Parceria">
+        <img src="./img/dummy-logo-2b.png" alt="Parceria">
+        <img src="./img/dummy-logo-3b.png" alt="Parceria">
+        <img src="./img/dummy-logo-4b.png" alt="Parceria">
+    </section>
+
+    <section class="footer">
+        <article>
+            <h1>Adreess</h1>
+            <p>
+                99 S.t Jomblo Park
+                Pekanbaru 28292.
+                Indonesia
+            </p>
+            <p>Mon — Sat: 8AM — 4PM</p>
+        </article>
+
+        <article>
+            <h1>Links</h1>
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h1>Phone</h1>
+            <a href="#">
+                <img src="./img/phone.png" alt="">
+                +62 458 7976 2473
+            </a>
+            <p>If you have a question, please contact at contact@comed.com</p>
+            <div>
+                <a href="#"><img src="./img/facebook.png" alt=""></a>
+                <a href="#"><img src="./img/twitter.png" alt=""></a>
+                <a href="#"><img src="./img/instagram.png" alt=""></a>
+                <a href="#"><img src="./img/youtube.png" alt=""></a>
+            </div>
+        </article>
+    </section>
+
+    <div>
+        © 2020 Comed Template Kit. All rights reserved
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,124 @@
+:root {
+    --color-background-light: #ffffff;
+    --color-background: #9B8F64;
+    --color-background-dark: #645E46;
+
+    --color-font-light: #ffffff;
+    --color-font: #CB995A;
+    --color-font-dark: #000000;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+.container > * {
+    margin: 0 auto;
+}
+
+#menu {
+    width: 100%;
+    background-color: var(--color-background-dark);
+    display: flex;
+    justify-content: center;
+}
+#menu nav {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a{
+    padding: 15px 35px;
+    color: var(--color-font-light)
+}
+#menu ul li #menu_contact {
+    color: var(--color-font-dark);
+    background-color: var(--color-background-light);
+}
+
+#home {
+    max-width: 1920px;
+    width: 100%;
+    background: linear-gradient(var(--color-background-dark), var(--color-background) 50%, var(--color-background-dark));
+}
+#home div {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 50px;
+}
+#home div h1 {
+    color: var(--color-font);
+    font-size: 6rem;
+
+    padding-top: 60px;
+}
+#home div p {
+    color: var(--color-font-light);
+    font-size: 2rem;
+    text-align: justify;
+    padding: 30px 120px 0px 110px;
+}
+#home div .video {
+    margin-top: 60px;
+    padding: 30px 120px 0px 110px;
+}
+#home div .video a{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: var(--color-font-light);
+}
+#home div .video a > * {
+    margin-right: 30px;
+}
+
+#home #profile {
+    text-align: center;
+    position: relative;
+}
+
+#home #profile #imgprofile {
+    z-index: 1;
+}
+
+#home #profile #imgforms1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: -90px;
+    top:150px;
+}
+#home #profile #imgforms2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 350px;
+    top:150px;
+}
+#home #profile #imgforms3 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: -230px;
+    top:550px;
+}
+#home #profile #imgforms4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 450px;
+    top:450px;
+}
