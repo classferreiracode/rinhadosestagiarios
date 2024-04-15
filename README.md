@@ -17,9 +17,15 @@ _Opcionalmente pode ser usado frameworks css_.
 * Cargo de Mentorado permanente no Discord (Acesso a mentores prontos para tirar suas dúvidas)
 * Por ultimo mais não menos importante uma **indicação para o mercado de trabalho** (A indicação não é garantia de conquistar uma vaga de emprego)
 
-## INSCRIÇÕES ABERTAS ATÉ 10/04
-[CLIQUE AQUI PARA SE INSCREVER](https://forms.gle/DcRLEKTy5QsXbLJdA)
-
+## INSCRIÇÕES ENCERRADAS 10/04
+<hr>
+## ENTREGA DO PROJETO 18/04
+<hr>
+## OVERVIEW DOS PROJETOS ENTREGUE EM LIVE 19/04
+<br>
+<hr>
+## RESULTADO EM LIVE: 24/04
+<hr>
 <br>
 <hr>
 <br>
