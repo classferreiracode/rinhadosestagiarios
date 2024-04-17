@@ -69,7 +69,7 @@
     color: var(--color-font-light);
     font-size: 2rem;
     text-align: justify;
-    padding: 30px 160px 0px 0px;
+    padding: 30px 200px 0px 0px;
 }
 #home div .video {
     margin-top: 60px;
@@ -297,10 +297,38 @@
     padding-left: 30px;
 }
 #ourprofile #ourprofile_side2 > p,
-#ourprofile #ourprofile_side2 > h2{
+#ourprofile #ourprofile_side2 > h3{
     padding: 25px 0px 0px 100px;
 }
 
 #contact {
-    padding-top: 150px;
+    margin: 150px 0px;
+    max-width: 1920px;
+    width: 100%;
+    background: linear-gradient(var(--color-background-dark), var(--color-background) 50%, var(--color-background-dark));
+    overflow: auto;
+}
+#contact div > * {
+    margin: 45px;
+}
+#contact div {
+    width: auto;
+    margin-bottom: 130px;
+}
+#contact h1 {
+    font-size: 2rem;
+    color: var(--color-font);
+    padding-top: 100px;
+}
+#contact h3 {
+    color: var(--color-font-light);
+    font-size: .7rem;
+}
+#contact a {
+    text-decoration: none;
+    background-color: var(--color-font);
+    padding: 15px 40px;
+    color: var(--color-font-dark);
+    font-weight: 400;
+    font-size: medium;
 }

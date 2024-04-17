@@ -5,13 +5,19 @@
     box-sizing: border-box;
 
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 
 }
 
-h1,h2,h3,h4 {
+h1,h2 {
     font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+h3 {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
