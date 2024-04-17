@@ -230,4 +230,35 @@
     text-align: left;   
 }
 
+#carousel {
+    margin-top: 150px;
+    max-width: 1920px;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+#carousel:hover .carousel__content{
+    animation-play-state: paused;
+}
+.carousel__content {
+    display: inline-block;
+    animation: 30s slide infinite linear;
+}
+#carousel .carousel__content .carousel__item {
+    width: 517px;
+    height: 346px;
+    margin: 0 10px;
+}
+/* ANIMATION CAROUSEL*/
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
+#profile {
+    margin-top: 100px;
+}
