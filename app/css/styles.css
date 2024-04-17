@@ -140,7 +140,6 @@
     color: var(--color-font);
 }
 
-
 #about .about1 h1 {
     text-align: left;
     font-size: 2.1rem;
@@ -231,7 +230,7 @@
 }
 
 #carousel {
-    margin-top: 150px;
+    margin-top: 130px;
     max-width: 1920px;
     width: 100%;
     overflow-x: hidden;
@@ -259,6 +258,49 @@
     }
 }
 
-#profile {
-    margin-top: 100px;
+#ourprofile {
+    margin-top: 150px;
+    max-width: 1170px;
+    width: 100%;
+}
+#ourprofile article {
+    display: flex;
+    justify-content: space-between;
+}
+#ourprofile #ourprofile_side1 {
+    position: relative;
+}
+#ourprofile  #ourprofile_img1 {
+    width: 517px;
+}
+#ourprofile  #ourprofile_img2 {
+    width: 220px;
+
+    position: absolute;
+    bottom: 5px;
+    right: -70px;
+}
+#ourprofile  #ourprofile_img3 {
+    width: 158px;
+    height: 158px;
+
+    position: absolute;
+    bottom: -105px;
+    right: -70px;;
+}
+#ourprofile #ourprofile_side2 {
+    text-align: left;
+}
+#ourprofile #ourprofile_side2 h1 {
+    font-size: 2.1rem;
+    color: var(--color-font);
+    padding-left: 30px;
+}
+#ourprofile #ourprofile_side2 > p,
+#ourprofile #ourprofile_side2 > h2{
+    padding: 25px 0px 0px 100px;
+}
+
+#contact {
+    padding-top: 150px;
 }
