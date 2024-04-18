@@ -2,7 +2,8 @@
     --color-background-light: #ffffff;
     --color-background: #9B8F64;
     --color-background-dark: #645E46;
-
+    --color-background-lightest: #F9F1E7;
+    
     --color-font-light: #ffffff;
     --color-font: #CB995A;
     --color-font-dark: #000000;
@@ -398,7 +399,7 @@
 #ourschedule footer a{
     text-decoration: none;
     color: var(--color-font);
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 400;
 }
 #ourschedule footer #ourschedule_footer_img1 {
@@ -406,4 +407,83 @@
     left: -140px;
     top: -80px;
     opacity: 20%;
+}
+
+#onpress {
+    border: 1px solid red;
+    margin-top: 140px;
+    width: 100%;
+    background-color: var(--color-background-lightest);
+    padding: 170px 0px;
+}
+#onpress div {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+}
+#onpress div  #onpress_side1 {
+    display: block;
+    padding-right: 60px;
+}
+
+#onpress div #onpress_side1 h1 {
+    font-size: 1.7rem;
+    color: var(--color-font);
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 20px;
+    display: block;
+}
+#onpress div #onpress_side1 h3 {
+text-align: left;
+margin-bottom: 30px;
+}
+#onpress div #onpress_side1 article {
+    display: flex;
+}
+#onpress div #onpress_side1 article video {
+    width: 157px;
+    height: 104px;
+}
+#onpress div #onpress_side1 article div {
+    padding-left: 20px;
+    text-align: left;
+    display: block;
+}
+#onpress div #onpress_side1 article div h3 {
+    text-align: left;
+    font-size: .8rem;
+}
+#onpress div #onpress_side1 article footer {
+    font-size: .8rem;
+    color: gray;
+    font-style: italic;
+}
+#onpress div #onpress_side1 div a {
+    text-decoration: none;
+    color: var(--color-font);
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin-top: 40px;
+}
+#onpress div #onpress_side2 {
+    position: relative;
+}
+#onpress div #onpress_side2 #onpress_side2_img1{
+    width: 670px;
+    height: 507px;
+}
+#onpress div #onpress_side2 #onpress_side2_img2{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+#onpress div #onpress_side2 #onpress_side2_img3{
+    width: 233px;
+    height: 224px;
+    position: absolute;
+    bottom: -40px;
+    left: 400px;
 }
