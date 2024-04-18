@@ -1,7 +1,7 @@
 :root {
     --color-border-light: #E2E2E2;
 
-    --color-background-light: #ffffff;
+    --color-background-light: #F5F5F5;
     --color-background: #9B8F64;
     --color-background-dark: #645E46;
     --color-background-lightest: #F9F1E7;
@@ -527,4 +527,16 @@ margin-bottom: 30px;
     display: flex;
     gap: 20px;
     border-top: 1px solid var(--color-border-light);
+}
+
+#partners {
+    width: 100%;
+    max-width: 1920px;
+    background-color: var(--color-background-light);
+    margin-top: 90px;
+}
+#partners div {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
 }
