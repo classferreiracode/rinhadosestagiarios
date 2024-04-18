@@ -126,7 +126,7 @@
 #about {
     max-width: 1170px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 160px;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
@@ -302,7 +302,8 @@
 }
 
 #contact {
-    margin: 150px 0px;
+    margin-top: 200px;
+    margin-bottom: 160px;
     max-width: 1920px;
     width: 100%;
     background: linear-gradient(var(--color-background-dark), var(--color-background) 50%, var(--color-background-dark));
@@ -331,4 +332,72 @@
     color: var(--color-font-dark);
     font-weight: 400;
     font-size: medium;
+}
+
+#ourschedule {
+    max-width: 1170px;
+    width: 100%;
+}
+#ourschedule h1 {
+    color: var(--color-font);
+    font-size: 2rem;
+}
+#ourschedule article {
+    border-bottom: 1px solid rgb(216, 202, 202);
+    padding-bottom: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#ourschedule article #ourschedule_side1 {
+    position: relative;
+}
+#ourschedule article #ourschedule_side1 label {
+    position: absolute;
+    color: var(--color-font-dark);
+    font-size: 1rem;
+    font-family: "Krona One", sans-serif;
+    background-color: var(--color-background-light);
+    padding: 12px;
+}
+#ourschedule article #ourschedule_side2 {
+    padding: 0px 50px;
+}
+#ourschedule article #ourschedule_side2 h2 {
+    font-size: 1.7rem;
+    text-align: left;
+    margin-top: 30px;
+    font-weight: 300;
+}
+#ourschedule article #ourschedule_side2 p {
+    text-align: justify;
+    margin-top: 40px;
+}
+#ourschedule article #ourschedule_side2 ul {
+    margin-top: 50px;
+    padding: 0px 10px;
+    display: flex;
+    gap: 50px;
+}
+#ourschedule article #ourschedule_side2 ul .ourschedule_country_img {
+    list-style-image: url("../img/windowns.png");
+}
+#ourschedule article #ourschedule_side2 ul .ourschedule_flag_img {
+    list-style-image: url("../img/flag.png");
+}
+#ourschedule footer {
+    margin: 50px auto;
+    position: relative;
+}
+#ourschedule footer a{
+    text-decoration: none;
+    color: var(--color-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#ourschedule footer #ourschedule_footer_img1 {
+    position: absolute;
+    left: -140px;
+    top: -80px;
+    opacity: 20%;
 }
