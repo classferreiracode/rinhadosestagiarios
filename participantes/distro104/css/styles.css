@@ -10,6 +10,9 @@
     --color-font: #CB995A;
     --color-font-dark: #000000;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .container {
     text-align: center;
@@ -540,6 +543,7 @@ margin-bottom: 30px;
     width: 100%;
     margin: auto;
 }
+
 #footerpage {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
@@ -585,12 +589,46 @@ margin-bottom: 30px;
 }
 #footerpage_part3 {
     grid-area: footerpage_part3;
+    padding-left: 90px;
 }
 #footerpage_part3 li {
-    font-size: 1rem;
+    list-style-image: url("../img/phone.png");
 }
+#footerpage_part3 li h2 {
+    font-size: 1.2rem;
+}
+#footerpage_part3 p {
+    font-size: .8rem;
+    margin-top: 0px;
+}
+#footerpage_part3 div {
+    text-align: left;
+    margin-top: 15px;
+}
+#footerpage_part3 div a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50px;
+    padding: 5px;
+    object-fit: contain;
+}
+#footerpage_part3 div #footerpage_part3_facebook img {
+    background-color: #333333;
+}
+#footerpage_part3 div #footerpage_part3_twitter img {
+    background-color: #CB995A;
+}
+
+#footerpage_part3 div #footerpage_part3_instagram img {
+    background-color: #333333;
+}
+
+#footerpage_part3 div #footerpage_part3_youtube img {
+    background-color: #333333;
+}
+
+
 #footerpage_footer {
     grid-area: footerpage_footer;
-
-    padding-top: 30px;
 }
