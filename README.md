@@ -18,13 +18,10 @@ _Opcionalmente pode ser usado frameworks css_.
 * Por ultimo mais não menos importante uma **indicação para o mercado de trabalho** (A indicação não é garantia de conquistar uma vaga de emprego)
 
 ## INSCRIÇÕES ENCERRADAS 10/04
+<hr>
 ENTREGA DO PROJETO **21/04**
-<hr>
-OVERVIEW DOS PROJETOS ENTREGUE EM LIVE **22/04**
-<br>
-<hr>
-RESULTADO EM LIVE: **24/04**
-<hr>
+OVERVIEW DOS PROJETOS ENTREGUE EM LIVE **24/04**
+RESULTADO EM LIVE: **26/04**
 <br>
 <br>
 
