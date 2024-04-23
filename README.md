@@ -19,9 +19,12 @@ _Opcionalmente pode ser usado frameworks css_.
 
 ## INSCRIÇÕES ENCERRADAS 10/04
 <hr>
-ENTREGA DO PROJETO **21/04**
+ENTREGA DO PROJETO **21/04** 
+
 OVERVIEW DOS PROJETOS ENTREGUE EM LIVE **24/04**
+
 RESULTADO EM LIVE: **26/04**
+
 <br>
 <br>
 
