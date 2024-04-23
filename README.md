@@ -18,7 +18,7 @@ _Opcionalmente pode ser usado frameworks css_.
 * Por ultimo mais não menos importante uma **indicação para o mercado de trabalho** (A indicação não é garantia de conquistar uma vaga de emprego)
 
 ## INSCRIÇÕES ENCERRADAS 10/04
-<hr>
+
 ENTREGA DO PROJETO **21/04** 
 
 OVERVIEW DOS PROJETOS ENTREGUE EM LIVE **24/04**
